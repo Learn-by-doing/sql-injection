@@ -1,0 +1,17 @@
+<html>
+<head>
+	<title>SQL Injection</title>
+</head>
+<body>
+
+	<!--
+		Try some special SQL characters to see if this form is vulnerable.
+	-->
+	<form action="/login" method="post">
+		<input type="text" name="username" placeholder="Username">
+		<input type="password" name="password" placeholder="Password">
+		<input type="submit" value="Login">
+	</form>
+
+</body>
+</html>
